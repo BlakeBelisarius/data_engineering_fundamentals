@@ -76,66 +76,66 @@ Each folder in this repository represents a mini-project focused on one of the c
 
 ### Directory Structure 
 
-data_engineering_fundamentals/
-├── 01_data_modeling/
-│   ├── 1_README.md               # Explanation of data modeling concepts
-│   ├── 2_er_diagrams/            # Sample Entity-Relationship diagrams
-│   ├── 3_examples/               # Examples of data models in different scenarios
-│   └── 4_data/                   # Data files for modeling examples
-├── 02_etl_pipelines/
-│   ├── 1_README.md               # Overview of ETL pipelines
-│   ├── 2_python/                 # Python ETL scripts
-│   ├── 3_airflow/                # Airflow DAG examples for ETL
-│   ├── 4_tools/                  # Tools for ETL (e.g., dbt, Fivetran)
-│   └── 5_data/                   # Data to use in ETL pipelines
-├── 03_sql/
-│   ├── 1_README.md               # SQL introduction and best practices
-│   ├── 2_queries/                # SQL query examples
-│   ├── 3_optimization/           # Tips for optimizing SQL queries
-│   ├── 4_exercises/              # SQL practice exercises
-│   └── 5_data/                   # SQL databases or datasets for practice
-├── 04_data_warehousing/
-│   ├── 1_README.md               # Data warehousing fundamentals
-│   ├── 2_snowflake/              # Examples for Snowflake setup and usage
-│   ├── 3_redshift/               # Redshift examples
-│   ├── 4_design_patterns/        # Common data warehousing design patterns
-│   └── 5_data/                   # Datasets for warehouse examples
-├── 05_big_data_technologies/
-│   ├── 1_README.md               # Introduction to big data technologies
-│   ├── 2_hadoop/                 # Hadoop use cases and setup
-│   ├── 3_spark/                  # Apache Spark examples
-│   ├── 4_kafka/                  # Kafka for data streaming
-│   └── 5_data/                   # Sample big data datasets
-├── 06_cloud_platforms/
-│   ├── 1_README.md               # Cloud platform overview
-│   ├── 2_aws/                    # AWS services for data engineering (e.g., S3, Redshift)
-│   ├── 3_azure/                  # Azure services
-│   ├── 4_gcp/                    # Google Cloud Platform services
-│   └── 5_data/                   # Cloud-based data examples
-├── 07_data_governance/
-│   ├── 1_README.md               # Data governance concepts
-│   ├── 2_privacy/                # Data privacy guidelines
-│   ├── 3_security/               # Data security best practices
-│   ├── 4_compliance/             # Compliance with regulations like GDPR, HIPAA
-│   └── 5_data/                   # Anonymized datasets for privacy and governance examples
-├── 08_programming_languages/
-│   ├── 1_README.md               # Overview of programming languages for data engineering
-│   ├── 2_python/                 # Python scripts
-│   ├── 3_java/                   # Java code for data pipelines
-│   ├── 4_scala/                  # Scala code for distributed systems
-│   └── 5_data/                   # Data used for programming exercises
-├── 09_apis_data_integration/
-│   ├── 1_README.md               # API and data integration concepts
-│   ├── 2_rest_api/               # REST API examples
-│   ├── 3_data_formats/           # Examples of working with JSON, XML, etc.
-│   └── 4_data/                   # Data for API integration exercises
-├── 10_version_control_automation/
-│   ├── 1_README.md               # Version control and automation overview
-│   ├── 2_git/                    # Git best practices and workflows
-│   ├── 3_ci_cd/                  # CI/CD pipeline examples
-│   └── 4_data/                   # Configuration files, workflows, etc.
-└── 11_docs/
-    └── 1_resources.md            # Learning resources and additional references
+data_engineering_fundamentals/  
+├── 01_data_modeling/  
+│   ├── 1_README.md               # Explanation of data modeling concepts  
+│   ├── 2_er_diagrams/            # Sample Entity-Relationship diagrams  
+│   ├── 3_examples/               # Examples of data models in different scenarios  
+│   └── 4_data/                   # Data files for modeling examples  
+├── 02_etl_pipelines/  
+│   ├── 1_README.md               # Overview of ETL pipelines  
+│   ├── 2_python/                 # Python ETL scripts  
+│   ├── 3_airflow/                # Airflow DAG examples for ETL  
+│   ├── 4_tools/                  # Tools for ETL (e.g., dbt, Fivetran)  
+│   └── 5_data/                   # Data to use in ETL pipelines  
+├── 03_sql/  
+│   ├── 1_README.md               # SQL introduction and best practices  
+│   ├── 2_queries/                # SQL query examples  
+│   ├── 3_optimization/           # Tips for optimizing SQL queries  
+│   ├── 4_exercises/              # SQL practice exercises  
+│   └── 5_data/                   # SQL databases or datasets for practice  
+├── 04_data_warehousing/  
+│   ├── 1_README.md               # Data warehousing fundamentals  
+│   ├── 2_snowflake/              # Examples for Snowflake setup and usage  
+│   ├── 3_redshift/               # Redshift examples  
+│   ├── 4_design_patterns/        # Common data warehousing design patterns  
+│   └── 5_data/                   # Datasets for warehouse examples  
+├── 05_big_data_technologies/  
+│   ├── 1_README.md               # Introduction to big data technologies  
+│   ├── 2_hadoop/                 # Hadoop use cases and setup  
+│   ├── 3_spark/                  # Apache Spark examples  
+│   ├── 4_kafka/                  # Kafka for data streaming  
+│   └── 5_data/                   # Sample big data datasets  
+├── 06_cloud_platforms/  
+│   ├── 1_README.md               # Cloud platform overview  
+│   ├── 2_aws/                    # AWS services for data engineering (e.g., S3, Redshift)  
+│   ├── 3_azure/                  # Azure services  
+│   ├── 4_gcp/                    # Google Cloud Platform services  
+│   └── 5_data/                   # Cloud-based data examples  
+├── 07_data_governance/  
+│   ├── 1_README.md               # Data governance concepts  
+│   ├── 2_privacy/                # Data privacy guidelines  
+│   ├── 3_security/               # Data security best practices  
+│   ├── 4_compliance/             # Compliance with regulations like GDPR, HIPAA  
+│   └── 5_data/                   # Anonymized datasets for privacy and governance examples  
+├── 08_programming_languages/  
+│   ├── 1_README.md               # Overview of programming languages for data engineering  
+│   ├── 2_python/                 # Python scripts  
+│   ├── 3_java/                   # Java code for data pipelines  
+│   ├── 4_scala/                  # Scala code for distributed systems  
+│   └── 5_data/                   # Data used for programming exercises  
+├── 09_apis_data_integration/  
+│   ├── 1_README.md               # API and data integration concepts  
+│   ├── 2_rest_api/               # REST API examples  
+│   ├── 3_data_formats/           # Examples of working with JSON, XML, etc.  
+│   └── 4_data/                   # Data for API integration exercises  
+├── 10_version_control_automation/  
+│   ├── 1_README.md               # Version control and automation overview  
+│   ├── 2_git/                    # Git best practices and workflows  
+│   ├── 3_ci_cd/                  # CI/CD pipeline examples  
+│   └── 4_data/                   # Configuration files, workflows, etc.  
+└── 11_docs/  
+    └── 1_resources.md            # Learning resources and additional references  
 
 ## Installation & Setup
 
