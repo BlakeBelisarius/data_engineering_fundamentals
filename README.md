@@ -74,6 +74,59 @@ Each folder in this repository represents a mini-project focused on one of the c
 - **Real-time Data Streaming with Kafka**: Learn how to process real-time streaming data using **Kafka**.
 - **Data Governance Strategies**: Best practices for ensuring data quality and security in cloud environments.
 
+### Directory Structure 
+
+├── data_modeling/
+│   ├── README.md               # Explanation of data modeling concepts
+│   ├── er_diagrams/            # Sample Entity-Relationship diagrams
+│   └── examples/               # Examples of data models in different scenarios
+├── etl_pipelines/
+│   ├── README.md               # Overview of ETL pipelines
+│   ├── python/                 # Python ETL scripts
+│   ├── airflow/                # Airflow DAG examples for ETL
+│   └── tools/                  # Tools for ETL (e.g., dbt, Fivetran)
+├── sql/
+│   ├── README.md               # SQL introduction and best practices
+│   ├── queries/                # SQL query examples
+│   ├── optimization/           # Tips for optimizing SQL queries
+│   └── exercises/              # SQL practice exercises
+├── data_warehousing/
+│   ├── README.md               # Data warehousing fundamentals
+│   ├── snowflake/              # Examples for Snowflake setup and usage
+│   ├── redshift/               # Redshift examples
+│   └── design_patterns/        # Common data warehousing design patterns
+├── big_data_technologies/
+│   ├── README.md               # Introduction to big data technologies
+│   ├── hadoop/                 # Hadoop use cases and setup
+│   ├── spark/                  # Apache Spark examples
+│   └── kafka/                  # Kafka for data streaming
+├── cloud_platforms/
+│   ├── README.md               # Cloud platform overview
+│   ├── aws/                    # AWS services for data engineering (e.g., S3, Redshift)
+│   ├── azure/                  # Azure services
+│   └── gcp/                    # Google Cloud Platform services
+├── data_governance/
+│   ├── README.md               # Data governance concepts
+│   ├── privacy/                # Data privacy guidelines
+│   ├── security/               # Data security best practices
+│   └── compliance/             # Compliance with regulations like GDPR, HIPAA
+├── programming_languages/
+│   ├── README.md               # Overview of programming languages for data engineering
+│   ├── python/                 # Python scripts
+│   ├── java/                   # Java code for data pipelines
+│   └── scala/                  # Scala code for distributed systems
+├── apis_data_integration/
+│   ├── README.md               # API and data integration concepts
+│   ├── rest_api/               # REST API examples
+│   └── data_formats/           # Examples of working with JSON, XML, etc.
+├── version_control_automation/
+│   ├── README.md               # Version control and automation overview
+│   ├── git/                    # Git best practices and workflows
+│   └── ci_cd/                  # CI/CD pipeline examples
+└── docs/
+    └── resources.md            # Learning resources and additional references
+
+
 ## Installation & Setup
 
 1. Clone the repository:
@@ -110,3 +163,5 @@ Feel free to contribute by:
 
 ---
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
